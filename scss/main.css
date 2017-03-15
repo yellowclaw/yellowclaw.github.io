@@ -120,6 +120,11 @@ header {
     width: 105px;
   }
 }
+@media (max-width: 768px) {
+  .logo {
+    margin-left: 33px;
+  }
+}
 .search {
   position: relative;
 }
@@ -199,6 +204,7 @@ header {
   font-family: "Open Sans";
   display: flex;
   align-items: flex-end;
+  padding-left: 20px;
 }
 .weAre .contain .textBlock h1 {
   position: absolute;
@@ -249,8 +255,7 @@ header {
 @media (max-width: 480px) {
   .btn-menu {
     display: block;
-    position: absolute;
-    right: 95px;
+    margin-left: 115px;
   }
 }
 .top-menu-hidden {
