@@ -133,6 +133,12 @@ header {
   right: 14px;
   @media (max-width: 480px) {
     display: none;
+    top: 14px;
+    right: 14px;
+  }
+  @media (max-width: 1024px) {
+    top: 11px;
+    right: 14px;
   }
 }
 
@@ -180,7 +186,8 @@ header {
         background: url("../images/Layer.png") no-repeat;
         width: 567px;
         height: 300px;
-        position: absolute;
+        //position: absolute; //сафарі
+        background-position: center;
         z-index: 101;
       }
 

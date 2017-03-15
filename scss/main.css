@@ -135,6 +135,14 @@ header {
 @media (max-width: 480px) {
   .search:before {
     display: none;
+    top: 14px;
+    right: 14px;
+  }
+}
+@media (max-width: 1024px) {
+  .search:before {
+    top: 11px;
+    right: 14px;
   }
 }
 .search-text {
@@ -181,7 +189,7 @@ header {
   background: url("../images/Layer.png") no-repeat;
   width: 567px;
   height: 300px;
-  position: absolute;
+  background-position: center;
   z-index: 101;
 }
 .weAre .contain .textBlock {
