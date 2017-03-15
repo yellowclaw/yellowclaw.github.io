@@ -237,7 +237,6 @@ header {
   line-height: 5px;
   color: #6a6867;
   cursor: pointer;
-  z-index: 102;
 }
 .btn-menu:hover {
   color: #308eb4;
